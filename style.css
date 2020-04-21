@@ -1,0 +1,161 @@
+.body{
+    font-family: 'poppins', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-left: 10px;
+}
+img{
+    filter: drop-shadow(20px 20px 20px  black);
+    width: 900px;
+    animation: drop 2s ease;
+    padding-left: 200px;
+    position: relative;
+    bottom: 100px;
+}
+
+.container{
+    display: flex;
+}
+
+
+ol{
+    list-style: none;
+}
+
+li{
+    display:inline-block;
+    margin: 7px;
+}
+
+.one{
+    border: 2px solid rgb(231, 26, 231);
+    padding: 6px;
+    cursor: pointer;
+}
+
+.two{
+    background-color: rgb(179, 4, 179);
+    color: white;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(179, 4, 179);
+    cursor: pointer;
+}
+
+.first{
+    text-decoration: line-through;
+}
+.second , .first{
+    display: inline-flex;
+    padding: 5px;
+
+}
+
+.main{
+    
+    text-align: center;
+}
+
+
+h5{
+    margin-left: 20px;
+}
+h4{
+    color: red;
+}
+
+.centepay{
+    margin-left: 150px;
+    color: white;
+    background-color: rgb(127, 15, 161);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    position: relative;
+    bottom: 500px;
+    display: inline-block;
+}
+
+.shopnow{
+    margin-left: 150px;
+    position: relative;
+    bottom: 500px;
+    margin-top: 35px;
+
+}
+
+/*
+body{
+    background-image: url(./pic/red.jpg);
+    
+  background-repeat: no-repeat;
+  background-position-x: -280px;
+    
+}
+*/
+
+@keyframes drop{
+    0%{
+        opacity: 0px;
+        transform: translateY(-120px);
+    }
+    100%{
+        opacity: 1px;
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 1040px){
+    
+    h1{
+        display: none;
+    }
+
+    .centepay{
+        position: relative;
+        bottom: 550px;
+        margin-top: 10px;
+    }
+    .shopnow{
+        position: relative;
+        bottom: 450px;
+    }
+
+    h4{
+        margin-top: 250px;
+    }
+    h5{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .main{
+        flex-direction: column;
+        font-size: 8px;
+    }
+    ol{
+        text-align: left;
+        padding-top: 90px;
+        margin-bottom: 0px;
+        margin-left: 80px;
+        margin-top: 2px;
+    }
+    img{
+        margin: 0px;
+        position: relative;
+        bottom: 150px;
+        
+        
+    }
+
+    p{
+        font-size: 15px;
+        position: relative;
+        bottom: 100px;
+        margin-bottom: 0px;
+
+    }
+}
