@@ -111,18 +111,28 @@ body{
 
 @media (max-width: 1040px){
     
+    button{
+        font-size: 20px;
+        position: relative;
+        top: 60px;
+        left: 30px;
+    }
     h1{
         display: none;
     }
 
     .centepay{
         position: relative;
-        bottom: 550px;
-        margin-top: 10px;
+        bottom: 690px;
+        margin-top: 0px;
+        margin-left: 300px;
+        font-size: 70px;
+        
     }
     .shopnow{
         position: relative;
-        bottom: 450px;
+        bottom: 599px;
+        margin-left: 350px;
     }
 
     h4{
